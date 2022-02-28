@@ -88,6 +88,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    opacity: 0.2;
 }
 
 .texture-paper::before {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -706,7 +707,7 @@ p {
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 1.2;
 }
 
 h3 {
@@ -823,7 +824,25 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+blockquote {
+    padding: 0px 20px;
+    margin: 0 0 0px;
+    border-left: none;
+}
+
+blockquote h2 {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+figcaption {
+    font-size: 19px;
 }
 
 @media (max-width: 1024px) {
