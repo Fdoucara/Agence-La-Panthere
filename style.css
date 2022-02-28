@@ -703,6 +703,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: block;
 }
 
 h2 {
@@ -741,6 +742,8 @@ h4 {
 }
 
 .portfolio-thumb {
+    width: 270px;
+    margin: auto;
     margin-bottom: 24px;
 }
 
